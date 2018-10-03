@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="BehaviourTree\BehaviorTree.cpp">
+      <Filter>BehaviourTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="BehaviourTree\Blackboard.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree\Behaviors.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree\BehaviorTree.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BehaviourTree">
+      <UniqueIdentifier>{a4ce31ed-9ff1-442d-bd5b-77d7ccc193ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
